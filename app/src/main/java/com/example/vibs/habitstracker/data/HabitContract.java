@@ -51,7 +51,6 @@ public class HabitContract {
         public static final String COLUMN_NAME_SLEEPHOURS = "sleepHours";
 
 
-
         // Possible values for the excercise habit.
         public static final int EXERCISE_YES = 0;
         public static final int EXERCISE_NO = 1;
