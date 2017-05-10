@@ -31,23 +31,31 @@
     <!-- Label for sleeping hours information in the editor [CHAR LIMIT=30] -->
     <string name="habit_sleeping_hours">Sleeping Hrs.</string>
 
-    <!-- Label for dropdown menu option if exercise is done [CHAR LIMIT=20] -->
-    <string name="habit_exercise_yes">Yes</string>
-
     <!-- Label for dropdown menu option if exercise is not done [CHAR LIMIT=20] -->
     <string name="habit_exercise_no">No</string>
 
-    <!-- Label for dropdown menu option if breakfast is eaten [CHAR LIMIT=20] -->
-    <string name="habit_breakfast_yes">Yes</string>
+    <!-- Label for dropdown menu option if exercise is done [CHAR LIMIT=20] -->
+    <string name="habit_exercise_yes">Yes</string>
+
+    <!-- Label for dropdown menu option if exercise is done [CHAR LIMIT=20] -->
+    <string name="habit_exercise_unknown">Unknown</string>
 
     <!-- Label for dropdown menu option if breakfast is not eaten [CHAR LIMIT=20] -->
     <string name="habit_breakfast_no">No</string>
 
-    <!-- Label for dropdown menu option if smoking is done [CHAR LIMIT=20] -->
-    <string name="habit_smoking_yes">Yes</string>
+    <!-- Label for dropdown menu option if breakfast is eaten [CHAR LIMIT=20] -->
+    <string name="habit_breakfast_yes">Yes</string>
+
+    <!-- Label for dropdown menu option if breakfast is eaten [CHAR LIMIT=20] -->
+    <string name="habit_breakfast_unknown">Unknown</string>
 
     <!-- Label for dropdown menu option if smoking is not done [CHAR LIMIT=20] -->
     <string name="habit_smoking_no">No</string>
 
+    <!-- Label for dropdown menu option if smoking is done [CHAR LIMIT=20] -->
+    <string name="habit_smoking_yes">Yes</string>
+
+    <!-- Label for dropdown menu option if smoking is done [CHAR LIMIT=20] -->
+    <string name="habit_smoking_unknown">Unknown</string>
 
 </resources>

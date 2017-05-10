@@ -29,19 +29,24 @@ public class HabitContract {
         public final static String COLUMN_HABIT_DATE ="date";
 
         /**
-         * Exercise: The only possible values are {@link #EXERCISE_YES} or {@link #EXERCISE_NO}
+         * Exercise: The only possible values are:
+         * {@link #EXERCISE_NO}, {@link #EXERCISE_YES} or {@link #EXERCISE_UNKNOWN}
+         *
          * Type: INTEGER
          */
         public final static String COLUMN_HABIT_EXERCISE ="exercise";
 
         /**
-         * Breakfast: The only possible values are {@link #BREAKFAST_YES} or {@link #BREAKFAST_NO}
+         * Breakfast: The only possible values are:
+         * {@link #BREAKFAST_NO}, {@link #BREAKFAST_YES} or {@link #BREAKFAST_UNKNOWN}
+         *
          * Type: INTEGER
          */
         public final static String COLUMN_HABIT_BREAKFAST ="breakfast";
 
         /**
-         * Smoking: The only possible values are {@link #SMOKING_YES} or {@link #SMOKING_NO}
+         * Smoking: The only possible values are:
+         * {@link #SMOKING_NO}, {@link #SMOKING_YES} or {@link #SMOKING_UNKNOWN}
          * Type: INTEGER
          */
         public final static String COLUMN_HABIT_SMOKING ="smoking";
@@ -52,15 +57,18 @@ public class HabitContract {
 
 
         // Possible values for the exercise habit.
-        public static final int EXERCISE_YES = 0;
-        public static final int EXERCISE_NO = 1;
+        public static final int EXERCISE_NO = 0;
+        public static final int EXERCISE_YES = 1;
+        public static final int EXERCISE_UNKNOWN = 2;
 
         // Possible values for the breakfast habit.
-        public static final int BREAKFAST_YES = 0;
-        public static final int BREAKFAST_NO = 1;
+        public static final int BREAKFAST_NO = 0;
+        public static final int BREAKFAST_YES = 1;
+        public static final int BREAKFAST_UNKNOWN = 2;
 
         // Possible values for the smoking habit.
-        public static final int SMOKING_YES = 0;
-        public static final int SMOKING_NO = 1;
+        public static final int SMOKING_NO = 0;
+        public static final int SMOKING_YES = 1;
+        public static final int SMOKING_UNKNOWN = 2;
     }
 }

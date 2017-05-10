@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- These are the options displayed in the exercise drop-down Spinner -->
+    <string-array name="array_exercise_options">
+        <item>@string/habit_exercise_yes</item>
+        <item>@string/habit_exercise_no</item>
+        <item>@string/habit_exercise_unknown</item>
+    </string-array>
+
+    <!-- These are the options displayed in the breakfast drop-down Spinner -->
+    <string-array name="array_breakfast_options">
+        <item>@string/habit_breakfast_yes</item>
+        <item>@string/habit_breakfast_no</item>
+        <item>@string/habit_breakfast_unknown</item>
+    </string-array>
+
+    <!-- These are the options displayed in the smoking drop-down Spinner -->
+    <string-array name="array_smoking_options">
+        <item>@string/habit_smoking_no</item>
+        <item>@string/habit_smoking_yes</item>
+        <item>@string/habit_smoking_unknown</item>
+    </string-array>
+
+</resources>
