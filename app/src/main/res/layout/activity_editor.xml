@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout for the editor -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin"
+    tools:context="com.example.vibs.habitstracker.EditorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_date"
+            style="@style/EditorTextView"
+            android:text="Date:" />
+
+        <!-- Overview category -->
+        <EditText
+            android:id="@+id/editText_date"
+            style="@style/EditorEditView"
+            android:ems="10"
+            android:inputType="date" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_excercise"
+            style="@style/EditorTextView"
+            android:layout_weight="1"
+            android:text="Excercise:" />
+
+        <Spinner
+            android:id="@+id/spinner_excercise"
+            style="@style/EditorEditView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_breakfast"
+            style="@style/EditorTextView"
+            android:text="Breakfast:" />
+
+        <Spinner
+            android:id="@+id/spinner_brakfast"
+            style="@style/EditorEditView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_smoking"
+            style="@style/EditorTextView"
+            android:text="Smoking:" />
+
+        <Spinner
+            android:id="@+id/spinner_smoking"
+            style="@style/EditorEditView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_sleephours"
+            style="@style/EditorTextView"
+            android:text="Sleep Hrs:" />
+
+        <!-- Overview category -->
+        <EditText
+            android:id="@+id/editText_sleephours"
+            style="@style/EditorEditView"
+            android:ems="10"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+</LinearLayout>

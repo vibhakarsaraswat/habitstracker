@@ -8,4 +8,32 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- Theme of the editor -->
+    <style name="EditorTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/editorColorPrimary</item>
+        <item name="colorPrimaryDark">@color/editorColorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for editor TextViews-->
+    <style name="EditorTextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">14dp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <!-- Style for editor EditViews-->
+    <style name="EditorEditView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">14dp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
 </resources>
+
