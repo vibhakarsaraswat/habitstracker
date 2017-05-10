@@ -16,7 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".EditorActivity"></activity>
+        <activity android:name=".EditorActivity"
+            android:label="@string/editor_activity_title_add_daily_habits"
+            android:theme="@style/EditorTheme"
+            android:parentActivityName=".HabitsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HabitsActivity" />
+        </activity>
     </application>
 
 </manifest>

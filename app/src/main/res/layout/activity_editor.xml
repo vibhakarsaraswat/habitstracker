@@ -19,12 +19,12 @@
             style="@style/EditorTextView"
             android:text="Date:" />
 
-        <!-- Overview category -->
         <EditText
             android:id="@+id/editText_date"
             style="@style/EditorEditView"
             android:ems="10"
-            android:inputType="date" />
+            android:inputType="date"
+            tools:text="dd/mm/yyyy" />
 
     </LinearLayout>
 
@@ -34,13 +34,13 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView_excercise"
+            android:id="@+id/textView_exercise"
             style="@style/EditorTextView"
             android:layout_weight="1"
-            android:text="Excercise:" />
+            android:text="Exercise:" />
 
         <Spinner
-            android:id="@+id/spinner_excercise"
+            android:id="@+id/spinner_exercise"
             style="@style/EditorEditView" />
 
     </LinearLayout>
@@ -87,7 +87,6 @@
             style="@style/EditorTextView"
             android:text="Sleep Hrs:" />
 
-        <!-- Overview category -->
         <EditText
             android:id="@+id/editText_sleephours"
             style="@style/EditorEditView"

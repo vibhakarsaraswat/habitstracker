@@ -30,7 +30,7 @@ public class HabitsDbHelper extends SQLiteOpenHelper {
         String SQL_CREATE_DAILYHABITS_TABLE =  "CREATE TABLE " + HabitContract.HabitEntry.TABLE_NAME + " ("
                 + HabitEntry._ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
                 + HabitEntry.COLUMN_HABIT_DATE + " TEXT NOT NULL, "
-                + HabitEntry.COLUMN_HABIT_EXCERCISE + " TEXT, "
+                + HabitEntry.COLUMN_HABIT_EXERCISE + " TEXT, "
                 + HabitEntry.COLUMN_HABIT_BREAKFAST + " TEXT, "
                 + HabitEntry.COLUMN_HABIT_SMOKING + " TEXT, "
                 + HabitEntry.COLUMN_NAME_SLEEPHOURS + " INTEGER NOT NULL DEFAULT 0);";

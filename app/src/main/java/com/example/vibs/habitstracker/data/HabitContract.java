@@ -32,7 +32,7 @@ public class HabitContract {
          * Exercise: The only possible values are {@link #EXERCISE_YES} or {@link #EXERCISE_NO}
          * Type: INTEGER
          */
-        public final static String COLUMN_HABIT_EXCERCISE ="excercise";
+        public final static String COLUMN_HABIT_EXERCISE ="exercise";
 
         /**
          * Breakfast: The only possible values are {@link #BREAKFAST_YES} or {@link #BREAKFAST_NO}
@@ -51,7 +51,7 @@ public class HabitContract {
         public static final String COLUMN_NAME_SLEEPHOURS = "sleepHours";
 
 
-        // Possible values for the excercise habit.
+        // Possible values for the exercise habit.
         public static final int EXERCISE_YES = 0;
         public static final int EXERCISE_NO = 1;
 

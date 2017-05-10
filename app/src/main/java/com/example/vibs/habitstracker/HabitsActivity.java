@@ -77,7 +77,7 @@ public class HabitsActivity extends AppCompatActivity {
         // and Toto's pet attributes are the values.
         ContentValues values = new ContentValues();
         values.put(HabitEntry.COLUMN_HABIT_DATE, "01/01/2017");
-        values.put(HabitEntry.COLUMN_HABIT_EXCERCISE, HabitEntry.EXERCISE_YES);
+        values.put(HabitEntry.COLUMN_HABIT_EXERCISE, HabitEntry.EXERCISE_YES);
         values.put(HabitEntry.COLUMN_HABIT_BREAKFAST, HabitEntry.BREAKFAST_YES);
         values.put(HabitEntry.COLUMN_HABIT_SMOKING, HabitEntry.SMOKING_NO);
         values.put(HabitEntry.COLUMN_NAME_SLEEPHOURS, 7);
