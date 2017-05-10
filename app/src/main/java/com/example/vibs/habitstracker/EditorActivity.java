@@ -185,7 +185,7 @@ public class EditorActivity extends AppCompatActivity {
         values.put(HabitEntry.COLUMN_HABIT_EXERCISE, mExcerciseHabit);
         values.put(HabitEntry.COLUMN_HABIT_BREAKFAST, mBreakfastHabit);
         values.put(HabitEntry.COLUMN_HABIT_SMOKING, mSmokingHabit);
-        values.put(HabitEntry.COLUMN_NAME_SLEEPHOURS, sleepHrs);
+        values.put(HabitEntry.COLUMN_HABIT_SLEEPHOURS, sleepHrs);
 
         // Insert a new row for pet in the database, returning the ID of that new row.
         long newRowId = db.insert(HabitEntry.TABLE_NAME, null, values);

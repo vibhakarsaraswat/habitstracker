@@ -53,7 +53,7 @@ public class HabitContract {
 
         // SleepHours: No of hours user slept in a single day.
         // Type: INTEGER
-        public static final String COLUMN_NAME_SLEEPHOURS = "sleepHours";
+        public static final String COLUMN_HABIT_SLEEPHOURS = "sleepHours";
 
 
         // Possible values for the exercise habit.

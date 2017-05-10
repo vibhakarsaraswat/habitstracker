@@ -33,7 +33,7 @@ public class HabitsDbHelper extends SQLiteOpenHelper {
                 + HabitEntry.COLUMN_HABIT_EXERCISE + " TEXT, "
                 + HabitEntry.COLUMN_HABIT_BREAKFAST + " TEXT, "
                 + HabitEntry.COLUMN_HABIT_SMOKING + " TEXT, "
-                + HabitEntry.COLUMN_NAME_SLEEPHOURS + " INTEGER NOT NULL DEFAULT 0);";
+                + HabitEntry.COLUMN_HABIT_SLEEPHOURS + " INTEGER NOT NULL DEFAULT 0);";
 
         // Execute the SQL statement
         db.execSQL(SQL_CREATE_DAILYHABITS_TABLE);
