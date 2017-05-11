@@ -200,6 +200,7 @@ public class EditorActivity extends AppCompatActivity {
         }
     }
 //---------------------------------------------------------------------------------------------------------------------------//
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu options from the res/menu/menu_editor.xml file.
@@ -208,8 +209,19 @@ public class EditorActivity extends AppCompatActivity {
         return true;
     }
 //---------------------------------------------------------------------------------------------------------------------------//
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        // Read from input fields and validating that DateField has not left empty.
+        if(mDateEditText.getText().toString().isEmpty()) {
+            mDateEditText.setError("Date field can't be empty!");
+            return false;
+        }
+
+        if(mSleephoursEditText.getText().toString().isEmpty()) {
+            mSleephoursEditText.setError("Sleep Hours can't be empty!");
+            return false;
+        }
         // User clicked on a menu option in the app bar overflow menu
         switch (item.getItemId()) {
             // Respond to a click on the "Save" menu option
